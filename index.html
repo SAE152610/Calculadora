@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Calculadora :v</title>
+</head>
+<body>
+    <div class="contenido">
+        <div class="pantalla">
+            <div type="text" id="resultado">0</div>
+        </div>
+        <div class="bot">
+            <div class="numeros">
+                <div>
+                <button onclick="add(1)">1</button>
+                <button onclick="add(2)">2</button>
+                <button onclick="add(3)">3</button>
+                </div>
+                <div>   
+                <button onclick="add(4)">4</button>
+                <button onclick="add(5)">5</button>
+                <button onclick="add(6)">6</button>
+                </div>
+                <div>
+                <button onclick="add(7)">7</button>
+                <button onclick="add(8)">8</button>
+                <button onclick="add(9)">9</button>
+                </div>
+                <div>
+                <button onclick="cancelar ()" id="cancelar">c</button>
+                <button onclick="add(0)">0</button>
+                <button onclick="igual ()" id="igual">=</button>
+                </div>
+            </div>
+            <div class="oper">
+                <button onclick="add('+')">+</button>
+                <button onclick="add('-')">-</button>
+                <button onclick="add('/')">/</button>
+                <button onclick="add('*')">*</button>
+            </div>    
+        </div>
+    </div> 
+ <script src="js/script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(182, 179, 179);
+}
+
+.contenido {
+    background-color: rgb(173, 2, 31);
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.pantalla {
+    padding: 23px 30px 0px 27px;
+}
+
+#resultado {
+    background-color: rgb(204, 200, 200);
+    padding: 15px 19px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.numeros {
+    padding: 25px 12px 25px 25px;
+}
+
+.oper {
+    padding: 25px 25px 25px 12px;
+}
+
+.oper button {
+    display: block;
+    width: 60px;
+    height: 59px;
+    padding: 15px 20px 20px;
+    border: none;
+    background-color: rgb(56, 55, 55);
+    color: rgb(253, 252, 252);
+}
+
+.bot {
+    display: flex;
+}
+
+.numeros div {
+    text-align: center;
+}
+
+.numeros button {
+    border: 0px;
+    background-color: rgb(228, 225, 225);
+}
+
+.numeros button:haver {
+    border: 0px;
+    box-shadow: 0px 0px 12px;
+    transition: 0.10%;
+}
+
+button {
+    margin: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+}
+
+#igual {
+    background-color: rgb(12, 68, 12);
+    color: ivory;
+}
+
+#cancelar {
+    color: red;
+}
+
